@@ -12,7 +12,6 @@ namespace WPFIntroExpenseIt
         {
             InitializeComponent();
         }
-
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             // View Expense Report
