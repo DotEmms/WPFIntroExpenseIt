@@ -57,7 +57,7 @@
         
         <!-- People list -->
         
-        <Label Grid.Column="1" Style="{StaticResource headerTextStyle}" >
+        <Label Grid.Column="1" Style="{StaticResource headerTextStyle}" Background="AntiqueWhite">
             View Expense Report
         </Label>
 

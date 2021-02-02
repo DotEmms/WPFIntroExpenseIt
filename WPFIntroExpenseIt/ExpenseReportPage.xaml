@@ -20,7 +20,7 @@
             <RowDefinition />
         </Grid.RowDefinitions>
 
-        <Label Grid.Column="1" Style="{StaticResource headerTextStyle}">
+        <Label Grid.Column="1" Style="{StaticResource headerTextStyle}" Background="AntiqueWhite">
             Expense Report For:
         </Label>
         <Grid Margin="10" Grid.Column="1" Grid.Row="1">
@@ -46,14 +46,14 @@
             </Grid.Resources>
             <!-- Name -->
             <StackPanel Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="0" Orientation="Horizontal">
-                <Label Style="{StaticResource labelStyle}">Name:</Label>
-                <Label Style="{StaticResource labelStyle}" Content="{Binding XPath=@Name}"></Label>
+                <Label Style="{StaticResource labelStyle}" Background="AliceBlue">Name:</Label>
+                <Label Style="{StaticResource labelStyle}" Content="{Binding XPath=@Name}" Background="AliceBlue"></Label>
             </StackPanel>
 
             <!-- Department -->
             <StackPanel Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="1" Orientation="Horizontal">
-                <Label Style="{StaticResource labelStyle}">Department:</Label>
-                <Label Style="{StaticResource labelStyle}" Content="{Binding XPath=@Department}"></Label>
+                <Label Style="{StaticResource labelStyle}" Background="AliceBlue">Department:</Label>
+                <Label Style="{StaticResource labelStyle}" Content="{Binding XPath=@Department}" Background="AliceBlue"></Label>
             </StackPanel>
 
             <Grid Grid.Column="0" Grid.ColumnSpan="2" Grid.Row="2" VerticalAlignment="Top" 
